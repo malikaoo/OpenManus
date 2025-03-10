@@ -1,17 +1,17 @@
 # Global LLM configuration
-#[llm]
-#model = "claude-3-5-sonnet"
-#base_url = "https://api.openai.com/v1"
-#api_key = "sk-..."
-#max_tokens = 4096
-#temperature = 0.0
-
 [llm]
-model = "llama3-groq-tool-use:latest"
-base_url = "http://127.0.0.1:11434/v1"
+model = "phi4-mini"
+base_url = "http://localhost:11434/v1"
 api_key = "ollama" # Replace with your actual API key
 max_tokens = 4096
 temperature = 0.0
+
+#[llm]
+#model = "llama3-groq-tool-use:latest"
+#base_url = "http://127.0.0.1:11434/v1"
+#api_key = "ollama" # Replace with your actual API key
+#max_tokens = 4096
+#temperature = 0.0
 
 # Optional configuration for specific LLM models
 [llm.vision]
